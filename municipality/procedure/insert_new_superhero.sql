@@ -105,6 +105,7 @@ INSERT INTO superhero (
 		superhero.superpower = superpower,
 		superhero.account_type = account_type,
 		superhero.firebase_token = firebase_token,
+		superhero.is_deleted = is_deleted,
 		superhero.updated_at = created_at;
 
 END$$
